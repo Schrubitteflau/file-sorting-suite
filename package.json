@@ -1,0 +1,27 @@
+{
+  "name": "universal-file-sorter",
+  "version": "1.0.0",
+  "description": "Sort files easily",
+  "keywords": [],
+  "homepage": "https://github.com/Schrubitteflau/file-sorting-suite#readme",
+  "bugs": {
+    "url": "https://github.com/Schrubitteflau/file-sorting-suite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schrubitteflau/file-sorting-suite.git"
+  },
+  "license": "ISC",
+  "author": "Schrubitteflau",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "magic-bytes.js": "^1.8.0"
+  },
+  "devDependencies": {
+    "electron": "^28.2.2"
+  }
+}

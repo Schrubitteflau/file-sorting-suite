@@ -1,0 +1,8 @@
+{
+    "ignoreIfPresentInJdupes": true,
+    "jdupesOutputFile": "./jdupes.json",
+    "fileIgnore": {
+        "mime": [],
+        "content:pattern": []
+    }
+}

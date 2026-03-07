@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://www.w3schools.com/w3css/4/w3.css -->
+    <link rel="stylesheet" href="./w3.css" />
+    <title>File sorter</title>
+  </head>
+  <body>
+    <div class="w3-container">
+      <div class="w3-display-container w3-khaki" style="height:100vh;">
+        <div class="w3-display-topleft">
+          <button id="add-target-directory">
+            Add a target directory
+          </button>
+        </div>
+        <div class="w3-display-topright">
+          Remaining count : <span id="remaining-count">-</span>
+        </div>
+        <div class="w3-display-bottomleft">Bottom Left</div>
+        <div class="w3-display-bottomright">Bottom Right</div>
+        <div class="w3-display-left">
+          <button id="button-save-progress">
+            Save progress
+          </button>
+        </div>
+        <div class="w3-display-right">
+          <button id="button-skip" class="w3-button w3-lime">
+            Skip
+          </button>
+        </div>
+        <div id="current-file-render" class="w3-display-middle">
+          Files are rendered here
+        </div>
+        <div class="w3-display-topmiddle w3-hide-small">
+          Working in directory : <span id="source-directory">-</span>
+        </div>
+        <div id="copy-buttons" class="w3-display-bottommiddle w3-hide-small">
+          Copy buttons are placed here
+        </div>
+      </div>
+    </div>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>
